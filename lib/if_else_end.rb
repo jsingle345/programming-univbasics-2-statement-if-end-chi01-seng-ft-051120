@@ -1,6 +1,6 @@
 # Write your solution here
 
-time = Times.now
+time = Time.now
 if time == even 
   puts "Even!"
 else
