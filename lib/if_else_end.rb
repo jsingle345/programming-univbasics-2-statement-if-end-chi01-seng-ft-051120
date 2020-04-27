@@ -1,8 +1,8 @@
 # Write your solution here
 
-run_code_inside = true 
-puts "Code before if...end"
-if run_code_inside
-  puts "code inside" 
-end 
-puts "Code after if...end"
+time = Times.now
+if time == even 
+  puts "Even!"
+else
+  puts "Odd!"
+end
